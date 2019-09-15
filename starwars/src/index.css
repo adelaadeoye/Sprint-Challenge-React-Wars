@@ -5,3 +5,24 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
 }
+tbody + thead{
+  display: none;
+}
+tbody{
+  background-color: white;
+}
+thead{
+  background-color: black;
+  color: white;
+}
+.dataTables_paginate{
+  background-color: white;
+
+  /* color: white; */
+}
+.dataTables_info{
+  background-color: white;
+
+}
+
+

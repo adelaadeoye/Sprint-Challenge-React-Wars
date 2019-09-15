@@ -69,7 +69,6 @@ const DatatablePage = props => {
     rows:props.character
     
   };
-  console.log(props.character)
   return (
     <MDBDataTable
       striped
